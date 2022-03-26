@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="我们的接口测试套件">
+    <test name="这些是测试模块">
+        <classes>
+            <class name="com.tester.extend.demo.TestMethodDemo">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="logDemo"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <!-- 因为测试报告是监听以上的行为所以下面要写监听
+           如果写监听pom文件引入的依赖会导致html文件加载不出来，所以此处直接写入正确的方法
+    -->
+    <listeners>
+        <listener class-name="com.tester.extend.demo.ExtentTestNGIReporterListener"></listener>
+    </listeners>
+</suite>
