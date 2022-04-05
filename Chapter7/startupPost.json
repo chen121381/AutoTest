@@ -1,0 +1,37 @@
+
+[
+  {
+    "description":"模拟post请求方法是不带参数的",
+    "request": {
+      "uri": "/postDemo",
+      "method": "post"
+    },
+    "response": {
+      "headers": {
+        "Content-Type": "text/html; charset=GBK"
+      },
+      "text": "模拟post请求方法是不带参数的"
+    }
+  },
+  {
+    "description":"模拟post请求方法是不带参数的",
+    "request": {
+      "uri": "/postParamter",
+      "method": "post",
+      "forms": {
+        "name": "chenrunting",
+        "age": "18"
+      }
+    },
+    "response": {
+      "headers": {
+        "Content-Type": "text/html; charset=GBK"
+      },
+      "text": "post带参数回来啦啦"
+    }
+
+  }
+
+
+
+]

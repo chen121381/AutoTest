@@ -1,0 +1,19 @@
+
+[
+  {
+    "description":"这是一个模拟带着get请求cookies的信息",
+    "request": {
+      "uri": "/get/Cookies/Demo",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "headers": {
+        "Content-Type": "text/html; charset=GBK"
+      },
+      "text": "这是一条带着get请求cookies信息"
+    }
+  }
+]

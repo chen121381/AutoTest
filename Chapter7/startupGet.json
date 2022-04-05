@@ -1,0 +1,34 @@
+
+[
+  {
+    "description":"模拟get请求方法是不带参数的",
+    "request": {
+      "uri": "/getDemo",
+      "method": "get"
+    },
+    "response": {
+      "headers": {
+        "Content-Type": "text/html; charset=GBK"
+      },
+      "text": "模拟get请求方法是不带参数的"
+    }
+  },
+  {
+    "description":"模拟get请求方法是不带参数的",
+    "request": {
+      "uri": "/getParamter",
+      "method": "get",
+      "queries": {
+        "name": "chenrunting",
+        "age": "18"
+      }
+    },
+    "response": {
+      "headers": {
+        "Content-Type": "text/html; charset=GBK"
+      },
+      "text": "陈润艇太帅了"
+    }
+
+  }
+]
